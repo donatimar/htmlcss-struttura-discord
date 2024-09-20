@@ -71,3 +71,36 @@ div#riquadro-viola .second-header {
   height: 400px;
   background-color: violet;
 }
+
+/* MAIN */
+
+.col {
+  height: 500px;
+}
+
+.big-col {
+  width: 60%;
+  background-color: blue;
+}
+
+.small-col {
+  width: 40%;
+  background-color: pink;
+}
+
+.bg-grigio {
+  background-color: grey;
+  height: 600px;
+}
+
+main section {
+  height: 500px;
+  margin: 20px;
+}
+
+div.riquadro-verde {
+  background-color: green;
+  height: 550px;
+  width: 100%;
+  margin: 10px 0;
+}
