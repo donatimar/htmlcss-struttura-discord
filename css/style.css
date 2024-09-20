@@ -104,3 +104,50 @@ div.riquadro-verde {
   width: 100%;
   margin: 10px 0;
 }
+
+/* # FOOTER */
+
+footer {
+  padding: 10px;
+  background-color: dimgrey;
+}
+
+footer section.top-footer {
+  height: 500px;
+  background-color: aquamarine;
+}
+
+footer section.top-footer aside {
+  width: 30%;
+  height: 100%;
+  background-color: darksalmon;
+}
+
+footer section.top-footer nav {
+  width: 70%;
+  height: 100%;
+  background-color: cadetblue;
+}
+
+footer .top-footer nav ul {
+  width: 25%;
+  height: 100%;
+  border: 2px dashed white;
+}
+
+footer hr {
+  margin: 2rem 0;
+}
+
+footer section.bottom-footer {
+  height: 100px;
+  background-color: aquamarine;
+  justify-content: space-between;
+}
+
+footer .footer-logo,
+footer .footer-bottone {
+  background-color: pink;
+  padding: 10px;
+  font-size: 20px;
+}
