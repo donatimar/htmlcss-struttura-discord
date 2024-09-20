@@ -38,8 +38,10 @@ header {
 }
 
 nav.top-header {
+  display: flex;
   height: 50px;
   margin: 10px;
+  justify-content: space-between;
 }
 
 nav div.logo,
@@ -47,17 +49,25 @@ nav div.login {
   flex-basis: 30%;
   background-color: gold;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 nav ul.link {
   flex-basis: 70%;
   background-color: gold;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
 nav ul.link li {
   display: inline-block;
+  margin: 0 10px;
 }
 
 div#riquadro-viola {
